@@ -1,0 +1,26 @@
+_id: req_eedd3706deb640728975e81d2642234b
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1719343300951
+created: 1719343274687
+url: https://httpbin.org/anything
+name: "AK Request "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.3.0-beta.6
+authentication: {}
+preRequestScript: null
+metaSortKey: -1719343274687
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
