@@ -8,6 +8,7 @@ name: Konnect-Portal-working
 description: ""
 method: GET
 body: {}
+preRequestScript: ""
 parameters: []
 headers:
   - name: User-Agent
@@ -18,11 +19,9 @@ headers:
     value: Bearer kpat_N2VIuSrAAG9WNhLaOZY06ypSrAojpKGWaA5IvYQNW5kQo4VB1
     description: ""
 authentication: {}
-preRequestScript: ""
 metaSortKey: -1714362384140
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

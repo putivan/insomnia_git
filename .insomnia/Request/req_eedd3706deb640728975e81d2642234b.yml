@@ -8,16 +8,15 @@ name: "AK Request "
 description: ""
 method: GET
 body: {}
+preRequestScript: null
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/9.3.0-beta.6
 authentication: {}
-preRequestScript: null
 metaSortKey: -1719343274687
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

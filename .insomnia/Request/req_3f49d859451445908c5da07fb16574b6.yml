@@ -14,6 +14,7 @@ body:
     	"username": "gscloud.ca@gmail.com",
     	"password": "Welc0me2006"
     }
+preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -28,11 +29,9 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-preRequestScript: ""
 metaSortKey: -1715209775381
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
