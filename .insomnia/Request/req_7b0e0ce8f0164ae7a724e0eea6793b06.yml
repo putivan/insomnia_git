@@ -41,7 +41,6 @@ body:
         "ws_upstream_frame": []
       }
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -54,9 +53,11 @@ authentication:
   type: bearer
   token: kpat_xx4iEYUZO2euslZ7E5kz5l1iFZGLQBTxiYzFswGVTZiwAUHIT
   disabled: false
+preRequestScript: ""
 metaSortKey: -1717095339497
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

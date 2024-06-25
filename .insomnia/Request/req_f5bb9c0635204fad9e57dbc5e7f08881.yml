@@ -13,7 +13,6 @@ body:
     {
     	"display_name": "my_string"
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -21,9 +20,11 @@ headers:
   - name: User-Agent
     value: insomnia/9.0.0
 authentication: {}
+preRequestScript: ""
 metaSortKey: -1715210576578
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

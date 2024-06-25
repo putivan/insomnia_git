@@ -8,7 +8,6 @@ name: test_konnect
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - name: User-Agent
@@ -23,9 +22,11 @@ headers:
 authentication:
   type: bearer
   token: kpat_xx4iEYUZO2euslZ7E5kz5l1iFZGLQBTxiYzFswGVTZiwAUHIT
+preRequestScript: ""
 metaSortKey: -1717098396854
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
