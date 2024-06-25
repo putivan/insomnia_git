@@ -1,0 +1,30 @@
+_id: req_6ef003610f734207b50656afb62eecf0
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1715209772255
+created: 1714362867703
+url: https://fa6ef9fbf8a2.us.portal.konghq.com/api/v2/applications
+name: Konnect-Portal
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.0.0
+    id: pair_8113fb93ec384eb0b34931c28245896c
+  - id: pair_388d1d8655b045da9869e45fda697ec5
+    name: Authorization
+    value: Bearer kpat_N2VIuSrAAG9WNhLaOZY06ypSrAojpKGWaA5IvYQNW5kQo4VB1
+    description: ""
+authentication: {}
+metaSortKey: -1714362867703
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

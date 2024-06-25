@@ -1,0 +1,34 @@
+_id: req_b061254012034b41a9999ddaf3169722
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1717099433994
+created: 1717098396854
+url: https://us.api.konghq.com/v2/control-planes/2ae952fc-35a6-4537-afd6-b2dda767c530/core-entities/routes
+name: test_konnect
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.0.0
+    id: pair_41cc0d15c26249b5b3ba763dea6e04f3
+    disabled: true
+  - id: pair_fd9922e047c643dd960a942eb3f1dc8c
+    name: Authorization
+    value: Bearer kpat_xx4iEYUZO2euslZ7E5kz5l1iFZGLQBTxiYzFswGVTZiwAUHI
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: kpat_xx4iEYUZO2euslZ7E5kz5l1iFZGLQBTxiYzFswGVTZiwAUHIT
+metaSortKey: -1717098396854
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

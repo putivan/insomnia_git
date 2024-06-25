@@ -1,0 +1,32 @@
+_id: req_f5bb9c0635204fad9e57dbc5e7f08881
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1715210679311
+created: 1715210576578
+url: https://fa6ef9fbf8a2.us.portal.konghq.com/api/v2/applications/d35d3da5-5331-49ff-bbf5-e4770d392c44/credentials
+name: Konnect_portal_app_cred
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"display_name": "my_string"
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/9.0.0
+authentication: {}
+metaSortKey: -1715210576578
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

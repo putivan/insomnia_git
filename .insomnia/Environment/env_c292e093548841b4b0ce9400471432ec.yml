@@ -1,0 +1,14 @@
+_id: env_c292e093548841b4b0ce9400471432ec
+type: Environment
+parentId: env_4d5988288f126f1909dbc666f95fdbc125a13d68
+modified: 1719332688823
+created: 1719332688823
+name: OpenAPI env jsonplaceholder.typicode.com
+data:
+  scheme: https
+  base_path: ""
+  host: jsonplaceholder.typicode.com
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1719332688824

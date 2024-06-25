@@ -1,0 +1,65 @@
+_id: req_7b0e0ce8f0164ae7a724e0eea6793b06
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1717103040228
+created: 1717095339497
+url: https://us.api.konghq.com/v2/control-planes/2ae952fc-35a6-4537-afd6-b2dda767c530/core-entities/routes/ec3366d3-a503-420a-a60a-4ca69b8b81af/plugins
+name: create_post_func
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "name": "post-function",
+      "enabled": true,
+      "service-id": null,
+      "route": {"id": "ec3366d3-a503-420a-a60a-4ca69b8b81af"},
+      "protocols": [
+        "grpc",
+        "grpcs",
+        "http",
+        "https",
+        "ws",
+        "wss"
+      ],
+      "instance_name": "sleep-postfunc",
+      "tags": null,
+      "config" : {
+        "access": [
+          "-- Define the post-function\nlocal function sleepBeforeResponse()\n    -- Retrieve the request headers\n    local headers = kong.request.get_headers()\n\n    -- Check if the 'city' header is present\n    if headers['city'] then\n        -- If the 'city' header is present, sleep for 60 seconds\n        ngx.sleep(30)\n    end\nend\n\n-- Execute the post-function\nsleepBeforeResponse()"
+        ],
+        "body_filter": [],
+        "certificate": [],
+        "functions": [],
+        "header_filter": [],
+        "log": [],
+        "rewrite": [],
+        "ws_client_frame": [],
+        "ws_close": [],
+        "ws_handshake": [],
+        "ws_upstream_frame": []
+      }
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf34eeba574248d98ec90f493623920c
+  - name: User-Agent
+    value: insomnia/9.0.0
+    id: pair_fa73830241474d3fb3ec9ef474291981
+authentication:
+  type: bearer
+  token: kpat_xx4iEYUZO2euslZ7E5kz5l1iFZGLQBTxiYzFswGVTZiwAUHIT
+  disabled: false
+metaSortKey: -1717095339497
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

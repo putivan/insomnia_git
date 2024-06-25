@@ -1,0 +1,40 @@
+_id: req_3f49d859451445908c5da07fb16574b6
+type: Request
+parentId: wrk_7eefe3544c4a4507aa3d64487aee583f
+modified: 1717097848172
+created: 1715209775381
+url: https://fa6ef9fbf8a2.us.portal.konghq.com/api/v2/applications
+name: Konnect_Portal_API
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "gscloud.ca@gmail.com",
+    	"password": "Welc0me2006"
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_17b68490ad51457985dc917ec574366d
+  - name: User-Agent
+    value: insomnia/9.0.0
+    id: pair_8f463e63a95349038f51a987f41c854e
+  - id: pair_16e33f5cc0274b5ba08f7f47299ecd68
+    name: Authorization
+    value: Bearer kpat_N2VIuSrAAG9WNhLaOZY06ypSrAojpKGWaA5IvYQNW5kQo4VB1
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1715209775381
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
